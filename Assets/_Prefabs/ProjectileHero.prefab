@@ -20,11 +20,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4737746929583274}
   - component: {fileID: 33756606635413816}
-  - component: {fileID: 23283244318057948}
   - component: {fileID: 65903154953388918}
+  - component: {fileID: 23283244318057948}
   - component: {fileID: 54520011489713058}
-  - component: {fileID: 114259957008948086}
   - component: {fileID: 114947235672963464}
+  - component: {fileID: 114259957008948086}
   m_Layer: 10
   m_Name: ProjectileHero
   m_TagString: ProjectileHero
@@ -100,8 +100,8 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 78
-  m_CollisionDetection: 0
+  m_Constraints: 120
+  m_CollisionDetection: 1
 --- !u!65 &65903154953388918
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -137,7 +137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: -1
-  keepOnScreen: 1
+  keepOnScreen: 0
   isOnScreen: 1
   camWidth: 0
   camHeight: 0

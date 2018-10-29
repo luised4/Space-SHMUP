@@ -1,20 +1,21 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Collections;
 
-public class Projectile : MonoBehaviour {
+public class Projectile : MonoBehaviour
+{
+
     private BoundCheck bndCheck;
 
-	// Use this for initialization
-	void awake() {
+    void Awake()
+    {
         bndCheck = GetComponent<BoundCheck>();
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    }
+
+    void Update()
+    {
         if (bndCheck.offUp)
-        {
+        {                                        // a
             Destroy(gameObject);
         }
-	}
+    }
 }

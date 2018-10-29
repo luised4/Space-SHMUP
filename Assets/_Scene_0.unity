@@ -515,9 +515,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1583335053}
-  - component: {fileID: 1583335055}
   - component: {fileID: 1583335054}
   - component: {fileID: 1583335056}
+  - component: {fileID: 1583335055}
   m_Layer: 8
   m_Name: _Hero
   m_TagString: Hero
