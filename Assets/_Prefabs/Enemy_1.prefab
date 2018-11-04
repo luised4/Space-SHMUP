@@ -201,7 +201,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 78
+  m_Constraints: 120
   m_CollisionDetection: 0
 --- !u!135 &135029380765575522
 SphereCollider:
